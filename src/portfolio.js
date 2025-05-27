@@ -183,7 +183,7 @@ const workExperiences = {
     {
       role: "Associate Software Engineer (AI/ML Developer)",
       company: "T-Machine Software Solutions",
-      companylogo: require("./assets/images/channels4_profile.jpg"),
+      companylogo: require("./assets/images/channels4_profile.png"),
       date: "Nov 2024 – Present",
       desc: "Developing AI-driven solutions with a focus on financial analytics and computer vision applications. Engaged in research and implementation of deep learning models for real-world problems.",
       descBullets: [
