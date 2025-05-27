@@ -200,7 +200,7 @@ const workExperiences = {
     {
       role: "Embedded Developer Intern",
       company: "Takeoff Edu Pvt Ltd",
-      companylogo: require("./assets/images/takeoff.jpg"),
+      companylogo: require("./assets/images/takeoff.png"),
       date: "Apr 2019 - Sep 2019",
       desc: "I gained hands-on experience in embedded systems and electronics through real-world projects, where I worked under expert guidance to acquire practical knowledge in circuit design, signal processing, and embedded technology. I also collaborated closely with industry experts, contributing to innovative solutions and learning best practices in electronics and communication engineering (ECE) within a team-driven environment. My project-based learning approach allowed me to develop strong technical and analytical skills, particularly in solving complex tasks related to hardware-software integration."
     }
