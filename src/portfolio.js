@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Somanath Reddy",
+  title: "Hi all, I'm Somanath Reddy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate AI/ML Developer 🚀 having an experience of building AI/ML applications with Python / Machine Learning / TensorFlow / Huggingface and some other cool ML libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1P-EkmE0neT7GyyuhcLpCzYZS43FhmVeK/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/somanatz",
+  linkedin: "https://www.linkedin.com/in/somanath-reddy",
+  gmail: "Onsreddy2002@gmail.com",
+  gitlab: "https://gitlab.com/somanatz",
+  medium: "https://medium.com/@onsreddy2002",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY AI/ML DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive AI and ML User Interfaces for your web and applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive AI Applications for small and medium scale businesses"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as AWS / Huggingface / Google Cloud for AI/ML applications"
     )
   ],
 
@@ -65,52 +63,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Django",
+      fontAwesomeClassname: "fab fa-django"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "machine-learning",
+      fontAwesomeClassname: "fab fa-ml"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fab fa-tensorflow"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "computer-vision",
+      fontAwesomeClassname: "fas fa-eye"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "NLP",
+      fontAwesomeClassname: "fas fa-nlp"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "postgresql",
+      fontAwesomeClassname: "fab fa-postgresql"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "huggingface",
+      fontAwesomeClassname: "fas fa-huggingface"
     },
     {
       skillName: "docker",
@@ -126,23 +112,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Chadalawada Ramanamma Engineering College",
+      logo: require("./assets/images/crectirupati_logo.jpg"),
+      subHeader: "Bachelor of Technology in Electronics and Communication Engineering",
+      duration: "September 2020 - May 2023",
+      desc: "Graduated with a strong foundation in AI/ML, and Electronics, achieving a GPA of 8.14.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Gained expertise in Python, R, and SQL through coursework and hands-on projects.",
+        "Directed team efforts in analytical solutions, enhancing project outcomes.",
+        "Achieved certification for a paper presentation on Cloud Computing."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Govt. Polytechnic College, Obulavaripalli",
+      logo: require("./assets/images/sbtet_Logo.png"), // Replace with actual logo
+      subHeader: "Diploma in Electronics and Communication Engineering",
+      duration: "April 2017 - July 2020",
+      desc: "Completed a diploma that built a strong foundation in electronics, communication, and embedded systems.",
+      descBullets: [
+        "Consistently ranked among the top 10% of students through academic excellence.",
+        "Gained hands-on experience through internships, enhancing practical knowledge.",
+        "Developed a solid technical foundation in circuit design, microcontrollers, and signal processing.",
+        "Selected this institute for its excellent faculty and resources, which greatly contributed to my academic and professional growth."
+      ]
     }
   ]
 };
@@ -153,19 +145,31 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack : "Python", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Django Rest Framework",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "machine learning", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "tensorflow",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "huggingface",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "OpenAI API & Gemini API",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -174,29 +178,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Associate Software Engineer (AI/ML Developer)",
+      company: "T-Machine Software Solutions",
+      companylogo: require("./assets/images/channels4_profile.jpg"),
+      date: "Nov 2024 – Present",
+      desc: "Developing AI-driven solutions with a focus on financial analytics and computer vision applications. Engaged in research and implementation of deep learning models for real-world problems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and optimized AI models for **Financial AI**, enhancing risk assessment and fraud detection.",
+        "Implemented **Eye Gaze Tracking** algorithms to improve human-computer interaction using computer vision.",
+        "Designed and fine-tuned deep learning pipelines for predictive analytics and pattern recognition.",
+        "Worked on deploying AI models in scalable cloud-based environments for real-time processing."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Science Intern",
+      company: "StarAgile (Highcatch private ltd)",
+      companylogo: require("./assets/images/unnamed.png"),
+      date: "Nov 2023 – Jun 2024",
+      desc: "During my internship at StarAgile, I developed and implemented data analysis and machine learning models to solve real-world business problems. Utilizing Python, R, and SQL for data manipulation, analysis, and visualization, I created dashboards and visualizations using Tableau and Power BI to present insights to stakeholders. I worked with large datasets using Apache Spark for distributed data processing and improved data processing efficiency by 20% through optimized SQL queries and data cleaning techniques. My capstone projects included developing a deep learning model using TensorFlow and Keras to detect COVID-19 from X-ray images, achieving 92% accuracy. I also built a sentiment analysis model using LSTM in TensorFlow to classify tweets as positive, negative, or neutral, and implemented a real-time face detection system using OpenCV."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Embedded Developer Intern",
+      company: "Takeoff Edu Pvt Ltd",
+      companylogo: require("./assets/images/takeoff.jpg"),
+      date: "Apr 2019 - Sep 2019",
+      desc: "I gained hands-on experience in embedded systems and electronics through real-world projects, where I worked under expert guidance to acquire practical knowledge in circuit design, signal processing, and embedded technology. I also collaborated closely with industry experts, contributing to innovative solutions and learning best practices in electronics and communication engineering (ECE) within a team-driven environment. My project-based learning approach allowed me to develop strong technical and analytical skills, particularly in solving complex tasks related to hardware-software integration."
     }
   ]
 };
@@ -213,28 +219,39 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: emoji("THE PROJECTS THAT I'M WORKING ON OR HAVE WORKED ON RECENTLY 😎"),
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/quizify.png"),
+      projectName: emoji("🧙 Quizify - AI Powered Quiz Generator"),
+      projectDesc: "Quizify is an AI-powered quiz generator that creates quizzes based on user input. It uses OpenAI's GPT-3.5 Turbo model to generate questions and answers, providing a unique and engaging quiz experience. Quizify allows users to customize quizzes by specifying topics, difficulty levels, and question types, making it suitable for educational purposes, training sessions, or just for fun. The application is built with a user-friendly interface that makes it easy to create and share quize results with emails.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://ai-quizify.streamlit.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/shl.png"),
+      projectName: "SHL AI Assessment Recommender",
+      projectDesc: "SHL AI Assessment Recommender is an intelligent tool designed to streamline the candidate evaluation process by suggesting the most suitable SHL assessments based on job roles, required skills, and organizational goals. Leveraging AI and data-driven insights, the system analyzes role-specific competencies and aligns them with SHL's vast library of psychometric and skill-based assessments, ensuring that recruiters and HR professionals make informed decisions with greater efficiency and accuracy. This project showcases the practical application of AI in talent management and enhances the hiring process by promoting fairness, relevance, and precision in assessment selection.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://shl-ai-assessment-recommender.streamlit.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Genai.png"),
+      projectName: "GenAI-Campus",
+      projectDesc: "GenAI-Campus is an AI-powered learning platform currently in progress, designed to empower schools, teachers, students, and parents with a personalized and engaging educational experience. The platform offers schools tools for managing digital classrooms, teachers features to deliver and track interactive content, students access to chapter-wise AI-guided learning materials, summaries, and Q&A, and parents insights into their child’s progress. Its main purpose is to simplify and enhance the learning journey through intelligent content, real-time support, and seamless collaboration among all users.",
+      footerLink: [
+        {
+          name: "View Code Repo",
+          url: "https://github.com/Somanatz/Learn_StepWise"
         }
       ]
     }
@@ -252,51 +269,42 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Certified Data Scientist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Certified Data Scientist by StarAgile, with a specialization in Machine Learning and Deep Learning.",
+      image: require("./assets/images/unnamed.png"),
+      imageAlt: "StarAgile Certified Data Scientist",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1ouEglFYYLDSPH38ZJjFAPCGxcLO5Hk97/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Applied Data Science lab",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed the Applied Data Science lab course by WorldQuant University, which covers the basics of data science and Machine Learning, including data visualization, data analysis, and machine learning.",
+      image: require("./assets/images/WQU_logo_color.png"),
+      imageAlt: "WorldQuant University",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "certification",
+          url: "https://drive.google.com/file/d/1x7ei8_1_sNwkfZnuSg5eqQQcQ-yGqCH1/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "NPTEL Believer certification",
+      subtitle: "Completed the NPTEL course on Cloud computing, which covers the basics of Python programming, aws, and SQL.",
+      image: require("./assets/images/nptel.jpg"),
+      imageAlt: "NPTEL",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+          name: "Certification", 
+          url: "https://drive.google.com/file/d/14g0iEs0VCwZVTFeBJ4QGXRjneDq819My/view?usp=sharing"
+        },
       ]
     }
   ],
@@ -312,16 +320,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/pulse/day-8-time-build-your-first-machine-learning-model-obili-narugari-gavnc/?trackingId=e9CEH84oQiuYICJHY6kmiQ%3D%3D",
+      title: "Time to Build Your First Machine Learning Model!",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "In this blog, I will guide you through building your first machine learning model using Python and Scikit-learn."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.linkedin.com/pulse/day-13-mastering-advanced-nlp-techniques-named-ner-obili-narugari-zmzpc/?trackingId=e9CEH84oQiuYICJHY6kmiQ%3D%3D",
+      title: "Mastering Advanced NLP Techniques: Named Entity Recognition",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "In this blog, I will guide you through Named Entity Recognition (NER) and how to implement it using Python and the Spacy library."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +351,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +364,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +380,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9666969012",
+  email_address: "Onsreddy2002@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
