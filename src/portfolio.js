@@ -23,7 +23,7 @@ const greeting = {
   username: "Somanath Reddy",
   title: "Hi all, I'm Somanath Reddy",
   subTitle: emoji(
-    "A passionate AI/ML Developer 🚀 having an experience of building AI/ML applications with Python / Machine Learning / TensorFlow / Huggingface and some other cool ML libraries and frameworks."
+    "I am an AI/ML Developer 🚀 passionate about transforming data into intelligent solutions using Python, TensorFlow, and NLP techniques, with expertise in Computer Vision, Prompt Engineering, Hugging Face, OpenAI APIs, and deploying ML models using Django, Docker, and AWS."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1P-EkmE0neT7GyyuhcLpCzYZS43FhmVeK/view?usp=sharing", // Set to empty to hide the button
