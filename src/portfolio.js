@@ -52,7 +52,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive AI and ML User Interfaces for your web and applications"
     ),
-    emoji("⚡ Progressive AI Applications for small and medium scale businesses"),
+    emoji(
+      "⚡ Progressive AI Applications for small and medium scale businesses"
+    ),
     emoji(
       "⚡ Integration of third party services such as AWS / Huggingface / Google Cloud for AI/ML applications"
     )
@@ -114,7 +116,8 @@ const educationInfo = {
     {
       schoolName: "Chadalawada Ramanamma Engineering College",
       logo: require("./assets/images/crectirupati_logo.jpg"),
-      subHeader: "Bachelor of Technology in Electronics and Communication Engineering",
+      subHeader:
+        "Bachelor of Technology in Electronics and Communication Engineering",
       duration: "September 2020 - May 2023",
       desc: "Graduated with a strong foundation in AI/ML, and Electronics, achieving a GPA of 8.14.",
       descBullets: [
@@ -145,7 +148,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack : "Python", //Insert stack or technology you have experience in
+      Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
@@ -219,12 +222,15 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: emoji("THE PROJECTS THAT I'M WORKING ON OR HAVE WORKED ON RECENTLY 😎"),
+  subtitle: emoji(
+    "THE PROJECTS THAT I'M WORKING ON OR HAVE WORKED ON RECENTLY 😎"
+  ),
   projects: [
     {
       image: require("./assets/images/quizify.png"),
       projectName: emoji("🧙 Quizify - AI Powered Quiz Generator"),
-      projectDesc: "Quizify is an AI-powered quiz generator that creates quizzes based on user input. It uses OpenAI's GPT-3.5 Turbo model to generate questions and answers, providing a unique and engaging quiz experience. Quizify allows users to customize quizzes by specifying topics, difficulty levels, and question types, making it suitable for educational purposes, training sessions, or just for fun. The application is built with a user-friendly interface that makes it easy to create and share quize results with emails.",
+      projectDesc:
+        "Quizify is an AI-powered quiz generator that creates quizzes based on user input. It uses OpenAI's GPT-3.5 Turbo model to generate questions and answers, providing a unique and engaging quiz experience. Quizify allows users to customize quizzes by specifying topics, difficulty levels, and question types, making it suitable for educational purposes, training sessions, or just for fun. The application is built with a user-friendly interface that makes it easy to create and share quize results with emails.",
       footerLink: [
         {
           name: "Visit Website",
@@ -236,7 +242,8 @@ const bigProjects = {
     {
       image: require("./assets/images/shl.png"),
       projectName: "SHL AI Assessment Recommender",
-      projectDesc: "SHL AI Assessment Recommender is an intelligent tool designed to streamline the candidate evaluation process by suggesting the most suitable SHL assessments based on job roles, required skills, and organizational goals. Leveraging AI and data-driven insights, the system analyzes role-specific competencies and aligns them with SHL's vast library of psychometric and skill-based assessments, ensuring that recruiters and HR professionals make informed decisions with greater efficiency and accuracy. This project showcases the practical application of AI in talent management and enhances the hiring process by promoting fairness, relevance, and precision in assessment selection.",
+      projectDesc:
+        "SHL AI Assessment Recommender is an intelligent tool designed to streamline the candidate evaluation process by suggesting the most suitable SHL assessments based on job roles, required skills, and organizational goals. Leveraging AI and data-driven insights, the system analyzes role-specific competencies and aligns them with SHL's vast library of psychometric and skill-based assessments, ensuring that recruiters and HR professionals make informed decisions with greater efficiency and accuracy. This project showcases the practical application of AI in talent management and enhances the hiring process by promoting fairness, relevance, and precision in assessment selection.",
       footerLink: [
         {
           name: "Visit Website",
@@ -247,7 +254,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Genai.png"),
       projectName: "GenAI-Campus",
-      projectDesc: "GenAI-Campus is an AI-powered learning platform currently in progress, designed to empower schools, teachers, students, and parents with a personalized and engaging educational experience. The platform offers schools tools for managing digital classrooms, teachers features to deliver and track interactive content, students access to chapter-wise AI-guided learning materials, summaries, and Q&A, and parents insights into their child’s progress. Its main purpose is to simplify and enhance the learning journey through intelligent content, real-time support, and seamless collaboration among all users.",
+      projectDesc:
+        "GenAI-Campus is an AI-powered learning platform currently in progress, designed to empower schools, teachers, students, and parents with a personalized and engaging educational experience. The platform offers schools tools for managing digital classrooms, teachers features to deliver and track interactive content, students access to chapter-wise AI-guided learning materials, summaries, and Q&A, and parents insights into their child’s progress. Its main purpose is to simplify and enhance the learning journey through intelligent content, real-time support, and seamless collaboration among all users.",
       footerLink: [
         {
           name: "View Code Repo",
@@ -297,14 +305,15 @@ const achievementSection = {
 
     {
       title: "NPTEL Believer certification",
-      subtitle: "Completed the NPTEL course on Cloud computing, which covers the basics of Python programming, aws, and SQL.",
+      subtitle:
+        "Completed the NPTEL course on Cloud computing, which covers the basics of Python programming, aws, and SQL.",
       image: require("./assets/images/nptel.jpg"),
       imageAlt: "NPTEL",
       footerLink: [
         {
-          name: "Certification", 
+          name: "Certification",
           url: "https://drive.google.com/file/d/14g0iEs0VCwZVTFeBJ4QGXRjneDq819My/view?usp=sharing"
-        },
+        }
       ]
     }
   ],
