@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.fc8231ad.css",
+    "main.js": "/developerFolio/static/js/main.3ef96a1f.js",
+    "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/developerFolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/sbtet_Logo.png": "/developerFolio/static/media/sbtet_Logo.7be8fc50f2d3ac0200ff.png",
+    "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Genai.png": "/developerFolio/static/media/Genai.1e9d0c9a532f4beb0337.png",
+    "static/media/channels4_profile.png": "/developerFolio/static/media/channels4_profile.27bbd09c7b43168b1415.png",
+    "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/resume.pdf": "/developerFolio/static/media/resume.984e7b98ad5f2efc3fda.pdf",
+    "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/nptel.jpg": "/developerFolio/static/media/nptel.45b4c3b00321fddea7a6.jpg",
+    "static/media/WQU_logo_color.png": "/developerFolio/static/media/WQU_logo_color.e5cd2eeb42b1ef67d10a.png",
+    "static/media/crectirupati_logo.jpg": "/developerFolio/static/media/crectirupati_logo.0f428662ec021920ae87.jpg",
+    "static/media/unnamed.png": "/developerFolio/static/media/unnamed.dc07ed0a37a15567ba9f.png",
+    "static/media/skill.svg": "/developerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/developerFolio/index.html",
+    "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.fc8231ad.css.map": "/developerFolio/static/css/main.fc8231ad.css.map",
+    "main.3ef96a1f.js.map": "/developerFolio/static/js/main.3ef96a1f.js.map",
+    "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/developerFolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc8231ad.css",
+    "static/js/main.3ef96a1f.js"
+  ]
+}
